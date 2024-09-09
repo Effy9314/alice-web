@@ -1,0 +1,33 @@
+.trama-dettagli {
+    background-color: #f6f6f6;
+    padding: 60px 0;
+}
+
+.trama-dettagli .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.trama-dettagli h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--bg-header);
+}
+
+.trama-sezione {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trama-sezione h2 {
+    color: var(--main-color);
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.trama-sezione p {
+    line-height: 1.6;
+}

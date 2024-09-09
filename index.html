@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito web di Chiara Di Mauro</title>
+
+    <!-- Link FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <!-- Header top -->
+        <div class="header__top">
+            <!-- Brand -->
+            <div class="header__top__brand">
+                <a href="index.html">
+                    <img class="logo-custom" src="img/logo.svg" alt="logo">
+                </a>
+            </div>
+
+            <!-- Desktop Menu -->
+            <nav class="desktop-nav">
+                <ul class="header__top__nav__menu">
+                    <li><a href="#ambientazione">Ambientazione</a></li>
+                    <li><a href="#serie">Serie Romanzi</a></li>
+                    <li><a href="#trama">Trama</a></li>
+                    <li><a href="#personaggi">Personaggi</a></li>
+                    <li><a href="#casate">Casate</a></li>
+                </ul>
+            </nav>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- Mobile Menu -->
+            <nav class="mobile-nav">
+                <div class="close-menu">X</div>
+                <ul class="header__top__nav__menu">
+                    <li><a href="#ambientazione">Ambientazione</a></li>
+                    <li><a href="#serie">Serie Romanzi</a></li>
+                    <li><a href="#trama">Trama</a></li>
+                    <li><a href="#personaggi">Personaggi</a></li>
+                    <li><a href="#casate">Casate</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Above -->
+        <section class="above">
+            <div class="container">
+                <div>
+                    <h1>Alice</h1>
+                    <h4>l'accademia della magia</h4>
+                    <p>Libro scritto nel 2022 da Chiara Di Mauro, corso di arti tecnologie dell'accademia delle belle
+                        arti di Catania , corso di web design professore Ciro Esposito.</p>
+                    <a href="trama-dettagli.html" class="button button--alt">Scopri di più</a>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Standard Section -->
+        <section>
+            <div class="container container--column">
+                <div class="big-column">
+                    <img class="imgcustom" src="img/ambient.jpeg" alt="illustrazione 1">
+                </div>
+                <div class="small-column" id="ambientazione">
+                    <h2>Ambientazione</h2>
+                    <p>Tutto si svolge all'interno dell'Accademia di Halein, dove Alice inizia a scoprire i suoi poteri.
+                        Grazie all'aiuto dei suoi nuovi amici, scoprirà anche la vera identità dei suoi genitori e
+                        l'enorme potere che nasconde dentro di sé.</p>
+                    <a href="ambientazione.html" class="button button--alt">Scopri di più</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Standard Section -->
+        <section>
+            <div class="container container--column" id="serie">
+                <div class="small-column">
+                    <h2>Serie di romanzi</h2>
+                    <p>La saga è composta da più libri che verranno svelati piano piano, a partire dall'uscita di "Alice
+                        e l'Accademia della Magia", in cui ci saranno colpi di scena che nessuno mai si aspetterebbe.
+                        Ogni libro offrirà avventure sempre più avvincenti e personaggi memorabili, mantenendo i lettori
+                        con il fiato sospeso fino all'ultima pagina.</p>
+                </div>
+                <div class="big-column">
+                    <img class="cover" src="img/cover.jpeg" alt="illustrazione 2">
+                </div>
+            </div>
+        </section>
+
+        <!-- Standard Section -->
+        <section class="trama">
+            <div class="container d-flex container--column bg-white" id="trama">
+                <div class="big-column pe-2">
+                    <h1>Trama</h1>
+                    <p>Alice, una ragazza di sedici anni, scopre un oscuro segreto familiare durante il suo compleanno.
+                        Costretta a trasferirsi in una nuova accademia, inizia un viaggio di autoscoperta, rivelando
+                        poteri nascosti e facendo nuove amicizie. Ogni giorno è una nuova avventura che la avvicina alla
+                        verità sul suo passato e al suo destino.</p>
+                    <a href="trama-dettagli.html" class="button button--alt">Scopri di più</a>
+                </div>
+                <div class="small-column">
+                    <img src="img/trama.jpeg" alt="illustrazione 3">
+                </div>
+            </div>
+        </section>
+
+        <!-- Big Section -->
+        <section>
+            <div class="container-fullwidth" id="personaggi">
+                <h2>Personaggi principali</h2>
+                <div class="carousel-container-personaggi">
+                    <button class="carousel-button-personaggi prev">&lt;</button>
+                    <div class="carousel-personaggi">
+                        <div class="carousel-item-personaggi">
+                            <img src="img/alice.jpeg" alt="Alice White">
+                            <h3>Alice White</h3>
+                            <p>Sedici anni, ragazza ribelle, alta, atletica, capelli castani, occhi cerulei. Pronta ad
+                                aiutare il prossimo, testarda, curiosa. Figlia di B. Principessa delle fate e di Davon
+                                (padre scomparso). Lei possiede il potere della luce e futura dominatrice di draghi.</p>
+                        </div>
+                        <div class="carousel-item-personaggi">
+                            <img src="img/nate.jpeg" alt="Nate Cooper">
+                            <h3>Nate Cooper</h3>
+                            <p>Sedici anni. Ragazzo di una bellezza disarmante avvolta da un'alone di mistero. Ragazzo
+                                dolce, simpatico e molto popolare a scuola. Figlio di due stregoni.</p>
+                        </div>
+                        <div class="carousel-item-personaggi">
+                            <img src="img/nathan.jpeg" alt="Nathan Torres">
+                            <h3>Nathan Torres</h3>
+                            <p>Sedici anni, ragazzo problematico di rara bellezza, occhi come il cielo. Bullo della
+                                scuola, fratello di Victoria e figlio di Aaron.</p>
+                        </div>
+                        <div class="carousel-item-personaggi">
+                            <img src="img/vicktoria.jpeg" alt="Vicktoria Torres">
+                            <h3>Vicktoria Torres</h3>
+                            <p>Sedici anni, ragazza con un animo crudele che non conosce il rimorso o il dolore. Figlia
+                                di Aaron e sorella di Nathan. Ogni ragazzo e ragazza che frequenta l'accademia di Halein
+                                viene collocato nella propria casata.</p>
+                        </div>
+                    </div>
+                    <button class="carousel-button-personaggi next">&gt;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cta -->
+        <section class="casate" id="casate">
+            <h2>Casate</h2>
+            <p class="casate-descrizione">Clicca su una casata per saperne di più</p>
+            <div class="casate-grid">
+                <a href="casate.html#fuoco" class="casata-item">
+                    <img src="img/fuoco.jpg" alt="Casata del Fuoco">
+                    <h3>Fuoco</h3>
+                </a>
+                <a href="casate.html#aria" class="casata-item">
+                    <img src="img/aria.jpeg" alt="Casata dell'Aria">
+                    <h3>Aria</h3>
+                </a>
+                <a href="casate.html#acqua" class="casata-item">
+                    <img src="img/acqua.jpeg" alt="Casata dell'Acqua">
+                    <h3>Acqua</h3>
+                </a>
+                <a href="casate.html#terra" class="casata-item">
+                    <img src="img/terra.jpeg" alt="Casata della Terra">
+                    <h3>Terra</h3>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <!-- Menu footer -->
+        <section>
+            <div class="container container--column">
+                <div class="footer-column">
+                    <h5>Libro scritto nel 2022
+                        Autrice Chiara Di Mauro
+                        Libro a tema fantasy
+                        Titolo " Alice l'accademia della magia</h5>
+                    <div class="lang">
+                        <img src="img/ita.png" alt="italiano">
+                        <p>Italiano</p>
+                    </div>
+                    <div class="social">
+                        <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+                <div class="group-small-column">
+                    <div class="small-column">
+                        <h6>Homepage</h6>
+                        <a href="#ambientazione">Ambientazione</a>
+                        <a href="#serie">serie</a>
+                        <a href="#trama">Trama</a>
+                        <a href="#personaggi">Personaggi principali</a>
+                        <a href="#casate">Casate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End footer -->
+        <section class="footer">
+            <div class="container container--column footer-line">
+                <div>
+                    <img src="img/logo.svg" alt="logo discord">
+                </div>
+                <div>
+                    <p class="text-white">Sito web di Chiara Di Mauro corso di arti tecnologie dell'accademia delle
+                        belle arti di Catania ,
+                        corso di web design professore Ciro Esposito.</p>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const hamburger = document.querySelector('.hamburger-menu');
+            const mobileNav = document.querySelector('.mobile-nav');
+            const closeMenu = document.querySelector('.close-menu');
+
+            hamburger.addEventListener('click', function () {
+                mobileNav.classList.add('active');
+            });
+
+            closeMenu.addEventListener('click', function () {
+                mobileNav.classList.remove('active');
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const carousel = document.querySelector('.carousel');
+            const items = carousel.querySelectorAll('.carousel-item');
+            const prevButton = document.querySelector('.carousel-button.prev');
+            const nextButton = document.querySelector('.carousel-button.next');
+            let currentIndex = 0;
+            let interval;
+
+            function showItem(index) {
+                items.forEach((item, i) => {
+                    item.classList.toggle('active', i === index);
+                });
+                carousel.style.transform = `translateX(-${index * 100}%)`;
+            }
+
+            function nextItem() {
+                currentIndex = (currentIndex + 1) % items.length;
+                showItem(currentIndex);
+            }
+
+            function prevItem() {
+                currentIndex = (currentIndex - 1 + items.length) % items.length;
+                showItem(currentIndex);
+            }
+
+            function startAutoPlay() {
+                interval = setInterval(nextItem, 5000); // Cambia ogni 5 secondi
+            }
+
+            function stopAutoPlay() {
+                clearInterval(interval);
+            }
+
+            prevButton.addEventListener('click', () => {
+                prevItem();
+                stopAutoPlay();
+                startAutoPlay();
+            });
+
+            nextButton.addEventListener('click', () => {
+                nextItem();
+                stopAutoPlay();
+                startAutoPlay();
+            });
+
+            carousel.addEventListener('mouseenter', stopAutoPlay);
+            carousel.addEventListener('mouseleave', startAutoPlay);
+
+            showItem(currentIndex);
+            startAutoPlay();
+        });
+    </script>
+
+    <script src="js/carousel-personaggi.js"></script>
+
+</body>
+
+</html>
