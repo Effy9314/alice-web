@@ -250,6 +250,16 @@ Main
     border-radius: 15px;
 }
 
+.bg-black {
+    background-color: black;
+	opacity: 0.8;
+    padding: 70px;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 15px;
+}
+
 .li-25 {
     width: 25%;
 }
