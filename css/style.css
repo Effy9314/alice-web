@@ -242,6 +242,7 @@ Main
 
 .bg-white {
     background-color: white;
+	opacity: 0.8;
     padding: 70px;
     margin: 50px auto;
     width: 90%;
